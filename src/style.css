@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+html {
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Poppins;
+  min-height: 100%;
+  padding-bottom: 76px;
+  position: relative;
+}
+
+body.bgGrey {
+  background-color: #eee;
+}
+
+@media (max-width: 1024px) {
+
+  .responsiveGrid {
+      width: 33.33%;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .responsiveGrid {
+      width: 50%;
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  .responsiveGrid {
+      width: 100%;
+  }
+
+}

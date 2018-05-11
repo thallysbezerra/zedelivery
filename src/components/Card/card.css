@@ -1,0 +1,100 @@
+.responsiveGrid {
+    box-sizing: border-box;
+    float: left;
+    padding: 20px;
+    width: 25%;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 3px 0px rgba(0,0,0,.2);
+    border-radius: 10px;
+    color: #000;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+.card .card__product {
+    padding: 15px;
+    text-align: left;
+}
+
+.card .card__price {
+    background-color: #b00020;
+    border-radius: 0 10px 0 10px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+
+.card .card__footer {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 75px;
+}
+
+.card .card__button {
+    background-color: #fff;
+    box-sizing: border-box;
+    color: #fff;
+    float: left;
+    font-size: 50px;
+    height: 75px;
+    padding-top: 12px;
+    text-decoration: none;
+    width: 75px;
+}
+
+.card .card__button:hover {
+    color: #fff;
+}
+
+.card .card__button--add {
+    border-radius: 0 0 10px;
+    color: #1B5E20;
+}
+
+.card .card__button--remove {
+    border-radius: 0 0 0 10px;
+    color: #b00020;
+}
+
+.card .card__button--add:hover {
+    background-color: #1B5E20;
+    border-radius: 10px 0;
+}
+
+.card .card__button--remove:hover {
+    background-color: #b00020;
+    border-radius: 0 10px;
+} 
+
+
+.card .card__amount {
+    border: none;
+    border-bottom: 2px solid #333;
+    box-sizing: border-box;
+    float: left;
+    font-size: 25px;
+    outline: none;
+    padding: 22px 0;
+    text-align: center;
+    width: calc(100% - 150px);
+}
+
+.card .card__amount:focus {
+    border-color: #fcd500;
+}
+
+.both {
+    clear: both;
+}
