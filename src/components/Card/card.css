@@ -44,12 +44,14 @@
 
 .card .card__button {
     background-color: #fff;
+    border: none;
     box-sizing: border-box;
     color: #fff;
+    cursor: pointer;
     float: left;
     font-size: 50px;
     height: 75px;
-    padding-top: 12px;
+    outline: none;
     text-decoration: none;
     width: 75px;
 }
@@ -59,25 +61,28 @@
 }
 
 .card .card__button--add {
-    border-radius: 0 0 10px;
+    border-radius: 10px 0;
     color: #1B5E20;
 }
 
 .card .card__button--remove {
-    border-radius: 0 0 0 10px;
+    border-radius: 0 10px;
     color: #b00020;
 }
 
 .card .card__button--add:hover {
     background-color: #1B5E20;
-    border-radius: 10px 0;
 }
 
 .card .card__button--remove:hover {
     background-color: #b00020;
-    border-radius: 0 10px;
 } 
 
+.card .card__button:disabled {
+    background-color: #eee;
+    color: #bbb;
+    cursor: default;
+}
 
 .card .card__amount {
     border: none;
