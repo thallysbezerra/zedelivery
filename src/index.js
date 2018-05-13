@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Products from './Products';
+import Home from './Home';
 import registerServiceWorker from './registerServiceWorker';
 import './reset.css';
 import './style.css';
 
-ReactDOM.render(<Products />, document.getElementById('root'));
+ReactDOM.render(<Home />, document.getElementById('root'));
 registerServiceWorker();

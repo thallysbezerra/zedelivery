@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Total from '../Total';
 import './card.css';
 
 class Card extends Component {
@@ -6,15 +7,16 @@ class Card extends Component {
     constructor() {
         super()
         this.state = {
-          price: "00,00",
-          product: "Produto",
-          amount: 0
+            amount: 0,
+            price: 8,
+            product: "Produto"
         }
     }
 
     // Adiciona um item à lista de compras
     addOne = () => {
         const amount = this.state.amount
+        const price = this.state.price
         this.setState({
             amount: amount + 1
         })
@@ -33,6 +35,7 @@ class Card extends Component {
     render() {
         return (
             <div>
+                <Total price="0" />
                 <div className="responsiveGrid">
                     <div className="card">
                         <div className="card__price">R$ {this.state.price}</div>
