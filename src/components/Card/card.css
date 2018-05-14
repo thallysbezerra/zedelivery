@@ -18,6 +18,8 @@
 .card img {
     border-radius: 10px 10px 0 0;
     height: 200px;
+    max-width: 100%;
+    padding-top: 10px;
 }
 
 .card .card__product {
@@ -103,4 +105,22 @@
 
 .both {
     clear: both;
+}
+
+@media(max-width: 1024px) {
+    .responsiveGrid {
+        width: 33.33%;
+    }
+}
+
+@media(max-width: 768px) {
+    .responsiveGrid {
+        width: 50%;
+    }
+}
+
+@media(max-width: 550px) {
+    .responsiveGrid {
+        width: 100%;
+    }
 }
