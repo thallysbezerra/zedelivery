@@ -82,8 +82,8 @@
 } 
 
 .card .card__button:disabled {
-    background-color: #eee;
-    color: #bbb;
+    background-color: #ddd;
+    color: #aaa;
     cursor: default;
 }
 

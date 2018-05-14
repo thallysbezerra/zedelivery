@@ -45,8 +45,8 @@
 }
 
 .search .search__button:disabled {
-    background: #eee;
+    background: #ddd;
     border-color: #bbb;
-    color: #bbb;
+    color: #aaa;
     cursor: default;
 }
