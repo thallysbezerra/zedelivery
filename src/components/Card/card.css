@@ -17,22 +17,23 @@
 
 .card img {
     border-radius: 10px 10px 0 0;
-    width: 100%;
+    height: 200px;
 }
 
 .card .card__product {
-    padding: 15px;
+    height: 40px;
+    padding: 30px 15px 15px;
     text-align: left;
 }
 
 .card .card__price {
     background-color: #b00020;
-    border-radius: 0 10px 0 10px;
+    border-radius: 10px 0 10px 0;
     color: #fff;
     font-size: 20px;
+    left: 0;
     padding: 10px;
     position: absolute;
-    right: 0;
     text-align: right;
 }
 

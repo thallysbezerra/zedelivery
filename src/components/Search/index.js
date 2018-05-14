@@ -53,7 +53,7 @@ class Search extends React.Component {
                                 // inline style for demonstration purpose
                                 const style = suggestion.active
                                             ? { backgroundColor: '#fcd500', cursor: 'pointer', padding: '20px' }
-                                            : { backgroundColor: '#eee', cursor: 'pointer', padding: '20px' };
+                                            : { backgroundColor: '#fff', cursor: 'pointer', padding: '20px' };
                                 return (
                                 <div {...getSuggestionItemProps(suggestion, { className, style })}>
                                     <span>{suggestion.description}</span>
