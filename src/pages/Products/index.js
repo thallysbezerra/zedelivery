@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Main from './components/Main';
-import Card from './components/Card'
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import Main from '../../components/Main';
+import Card from '../../components/Card'
 
-class Home extends Component {
+class Products extends Component {
 
   render() {
     return (
@@ -19,4 +19,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Products;

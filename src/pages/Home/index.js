@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Main from './components/Main';
-import Search from './components/Search';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import Main from '../../components/Main';
+import Search from '../../components/Search';
 
 class Home extends Component {
   render() {
